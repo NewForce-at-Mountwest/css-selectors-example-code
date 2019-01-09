@@ -1,0 +1,44 @@
+/* h1{
+  color: red;
+}
+
+#page-title{
+  color: blue;
+}
+
+.header{
+  color: green;
+} */
+
+/* LIGHTNING EXERCISE ONE */
+
+/* Select all the h2 elements that are inside of a section element (empty space) */
+
+
+/* section h2 {
+  color: red;
+} */
+
+/* Select only h2 elements that are direct children of a section (>) */
+section > h2 {
+  color: blue;
+}
+
+/* We used tag selectors, but you could also do this with id's and classes */
+
+/*
+  Select only a h1 that directly follows an h2 (+)
+*/
+h1 + h2 {
+  margin: 4px;
+  color: green;
+}
+
+
+/*
+  Select all articles that have sibling articles, regardless if they are direct (~)
+*/
+article ~ article {
+  margin: 10px;
+  color: red;
+}
