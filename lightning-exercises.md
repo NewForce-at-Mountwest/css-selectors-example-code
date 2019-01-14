@@ -2,7 +2,7 @@
 1. Create an `index.html` file
 2. In your `index.html` file, use the shift + ! shortcut to generate boilerpalte html
 3. In your HTML file, between the body tags, create an h1 element and give it the text of "My Blog"
-4. Give your html element a class of "header"
+4. Give your h1 element a class of "header"
 5. Give it an id of "page-title"
 6. Create a file called `style.css`
 7. Link your CSS file to your HTML document.
@@ -24,8 +24,8 @@
   </article>
 ```
 2. Select any `a` elements that are inside a `p` element. Make their font color black.
-3. Select any `p` element that is a direct sibling of an `h2` element and give it a `background-color` of `lightblue`.
-4. Select any `img` element that is a sibling of a `p` element and give it a `border-radius` of `30%`.
+3. Select any `p` element that is a directly adjacent sibling of an `h2` element and give it a `background-color` of `lightblue`.
+4. Select any `img` element that is a sibling of a `p` element and give it a `border-radius` of `30%`. (Doesn't need to be a directly adjscent sibling.)
 
 ## Lightning Exercise Three
 1. Use the same HTML you copied and pasted before.
