@@ -1,11 +1,14 @@
+/* LIGHTNING EXERCISE ONE */
 
+/* Select an item by its tag name, class, and id */
 
-/* REVIEW LIGHTNING EXERCISE ONE */
+/* LIGHTNING EXERCISE TWO */
 
 
 /* Select all the h2 elements that are inside of a section element (empty space) */
 
 /* Select only h2 elements that are direct children of a section (>) */
+/*
 
 
 /* We used tag selectors, but you could also do this with id's and classes */
@@ -13,7 +16,7 @@
 /* SIBLING COMBINATORS */
 
 /*
-  Select only a h1 that directly follows an h2 (+)
+Adjascent sibling combinator (+) -- select h2 elements that come directly after an h1 element
 */
 
 
@@ -22,16 +25,22 @@
 */
 
 
-/* LIGHTNING EXERCISE TWO */
+/* LIGHTNING EXERCISE THREE */
+
 
 /* PSEUDO SELECTORS */
 
-/* Select an h2 that's the first child of its parent */
+/* Select an h2 that's the first child of its parent (:first-child) */
 
-/* Select an article that's the third child of its parent */
+/* Select an article that's the third child of its parent (:nth-child(3) */
 
 /* What if we wanted it to be the third child of the section, specifically? */
 
-/* Make the h1 turn green when we hover over it */
+/* Make the h1 turn green when we hover over it :hover */
 
-/* LIGHTNING EXERCISE THREE */
+
+/* LIGHTNING EXERCISE Four */
+
+/* 1. Use the same HTML you copied and pasted before.
+2. Use `:first-child` to select the h2 element that is the first child of the article element.
+3. Use `:nth-child()` to select the paragraph element that's third child of the article element. */
