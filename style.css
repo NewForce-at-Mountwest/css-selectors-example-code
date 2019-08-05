@@ -1,42 +1,99 @@
-/* LIGHTNING EXERCISE ONE */
-
-/* Select an item by its tag name, class, and id */
-
 /* LIGHTNING EXERCISE TWO */
+
+/* - In `style.css`, select your footer element by its tag name and give it a background color of blue.
+- Select the same footer element by its class of "blog-footer". This time give it a background-color of green.
+- Select the same footer element by its id of "blog-footer-page-one". Give it a background-color of red */
+footer{
+  background-color: blue;
+}
+
+.blog-footer{
+  background-color: green;
+}
+
+#blog-footer-page-one{
+  background-color: red;
+}
+
+
+
+
 
 
 /* Select all the h2 elements that are inside of a section element (empty space) */
-
+section h2{
+  font-weight: bold;
+  font-size: 4em;
+}
 /* Select only h2 elements that are direct children of a section (>) */
-/*
 
+section > h2 {
+  color: skyblue;
+}
 
 /* We used tag selectors, but you could also do this with id's and classes */
 
 /* SIBLING COMBINATORS */
-
 /*
 Adjascent sibling combinator (+) -- select h2 elements that come directly after an h1 element
 */
 
+/* h1 + h2 {
+  color: red;
+} */
 
 /*
   Select all articles that have sibling articles, regardless if they are adjacent (~)
 */
 
+h1 ~ h2 {
+  color: green;
+}
+
 
 /* LIGHTNING EXERCISE THREE */
+
+/* 2. Select any `a` elements that are inside a `p` element. Make their font color gray.
+3. Select any `p` element that is a directly adjacent sibling of an `h2` element and give it a `background-color` of `lightblue`.
+4. Select any `img` element that is a sibling of a `p` element and give it a `border-radius` of `30%`. (Doesn't need to be a directly adjscent sibling.) */
+
+p a {
+  color:#87847b;
+}
+
+h2 + p {
+  background-color: lightblue;
+}
+
+p ~ img {
+  border-radius: 30%;
+}
 
 
 /* PSEUDO SELECTORS */
 
 /* Select an h2 that's the first child of its parent (:first-child) */
+h2:first-child {
+  font-family: Cursive;
+}
 
 /* Select an article that's the third child of its parent (:nth-child(3) */
 
+/* article:nth-child(3){
+  background-color: pink;
+} */
 /* What if we wanted it to be the third child of the section, specifically? */
 
+section article:nth-child(3){
+  background-color: purple;
+}
+
 /* Make the h1 turn green when we hover over it :hover */
+
+h1:hover{
+  color: green;
+  font-size: 250%;
+}
 
 
 /* LIGHTNING EXERCISE Four */
@@ -44,3 +101,11 @@ Adjascent sibling combinator (+) -- select h2 elements that come directly after 
 /* 1. Use the same HTML you copied and pasted before.
 2. Use `:first-child` to select the h2 element that is the first child of the article element.
 3. Use `:nth-child()` to select the paragraph element that's third child of the article element. */
+
+article h2:first-child{
+  background-color: pink;
+}
+
+article p:nth-child(3){
+  background-color: cornflowerblue
+}
